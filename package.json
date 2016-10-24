@@ -1,0 +1,40 @@
+{
+  "name": "home",
+  "version": "1.0.0",
+  "description": "Home API",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "jest",
+    "lint": "./node_modules/eslint/bin/eslint.js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shahafa/home"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "body-parser": "^1.15.2",
+    "chalk": "^1.1.3",
+    "compression": "^1.6.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "express-graphql": "^0.5.4",
+    "express-jwt": "^5.1.0",
+    "express-validator": "^2.20.10",
+    "graphql": "^0.7.2",
+    "js-base64": "^2.1.9",
+    "jsonwebtoken": "^7.1.9",
+    "lusca": "^1.4.1",
+    "mongoose": "^4.6.3",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb-base": "^8.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "jest": "^16.0.1"
+  }
+}
